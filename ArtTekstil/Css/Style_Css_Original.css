@@ -1,0 +1,627 @@
+﻿body {
+}
+
+
+.container {
+    width: 100%;
+    /*background-image: url(img/pattern.png);*/
+    background-repeat: repeat;
+    float: left;
+}
+
+    .container .top-line {
+        width: 100%;
+        height: 35px;
+        background-color: #2c2c2c;
+        margin: 0 auto;
+        color: white;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+        .container .top-line .top-icerik {
+            width: 1200px;
+            height: 35px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            .container .top-line .top-icerik .sosyal-medya {
+                width: 15%;
+                height: 35px;
+                float: right;
+                text-align: right;
+            }
+
+            .container .top-line .top-icerik .kayitOl {
+                width: 15%;
+                height: 35px;
+                float: right;
+                text-align: center;
+                line-height: 37px;
+                text-align: left;
+            }
+
+                .container .top-line .top-icerik .kayitOl a {
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+
+            .container .top-line .top-icerik .telefon {
+                width: 70%;
+                height: 35px;
+                float: left;
+                text-align: left;
+                line-height: 40px;
+                font-size: 13px;
+            }
+
+
+    .container .header {
+        width: 100%;
+        height: 123px;
+        margin: 0 auto;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+        /* border-bottom: 1px solid #5a5a5a; */
+    }
+
+        .container .header .headerOrtala {
+            width: 1200px;
+            height: 120px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            .container .header .headerOrtala .logo {
+                width: 25%;
+                height: 85px;
+                float: left;
+                padding: 25px 0 0 0;
+            }
+
+            .container .header .headerOrtala .uyeOzelMenu {
+                width: 75%;
+                height: 50px;
+                float: left;
+                padding: 60px 0 0 0;
+                font-size: 20px;
+                text-align: center;
+            }
+
+                .container .header .headerOrtala .uyeOzelMenu a {
+                    color: #1A1A1A;
+                    transition-property: all;
+                    text-decoration: none;
+                }
+
+                    .container .header .headerOrtala .uyeOzelMenu a:hover {
+                        color: #C10000;
+                        transition-property: all;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+    .container .sliderAlan {
+        width: 100%;
+        height: 500px;
+        /* background-color: #FF9600; */
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-size: 80px;
+        line-height: 140px;
+        border: 1px 0 1px 0 solid #b2b2b2;
+    }
+
+        .container .sliderAlan .sliderOrtala {
+            width: 100%;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            /* background-color: red; */
+        }
+
+    .container .hr {
+        width: 100%;
+        height: 10px;
+    }
+
+        .container .hr .hrOrtala {
+            width: 800px;
+            height: 100px;
+            margin-top: 45px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+    .container .photos {
+        width: 100%;
+        height: 350px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+    }
+
+        .container .photos .photosOrtala {
+            width: 1000px;
+            height: 350px;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            .container .photos .photosOrtala .resimAlani {
+                width: 300px;
+                height: 313px;
+                float: left;
+                margin: 20px 20px 10px 10px;
+                /*opacity: 0.9;*/
+                -webkit-filter: saturate(40%);
+            }
+
+                .container .photos .photosOrtala .resimAlani:hover {
+                    /*opacity: 1;*/
+                    -webkit-filter: saturate(130%);
+                    transition-property: all;
+                    transition: all 0.2s ease-in-out;
+                }
+
+
+    .container .aciklama {
+        width: 100%;
+        height: 290px;
+        margin: 0 auto;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+
+        .container .aciklama .aciklamaOrtala {
+            width: 1100px;
+            height: 270px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+            font-size: 22px;
+            line-height: 35px;
+        }
+
+    .container .tanitim {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+        text-align: center;
+    }
+
+        .container .tanitim .tanitimOrtala {
+            width: 1100px;
+            height: 370px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            .container .tanitim .tanitimOrtala .tanitimSol {
+                width: 47%;
+                height: 370px;
+                float: left;
+                padding-left: 65px;
+            }
+
+                .container .tanitim .tanitimOrtala .tanitimSol .tanitimResim {
+                    width: 169px;
+                    height: 169px;
+                    float: left;
+                    margin: 10px 15px 10px 0;
+                    border: 2px solid #696969;
+                }
+
+            .container .tanitim .tanitimOrtala .tanitimSag {
+                width: 53%;
+                height: 320px;
+                float: left;
+                /*text-align: center;*/
+                line-height: 30px;
+                padding-top: 50px;
+                font-family: 'Lobster', cursive;
+                font-size: 18px;
+            }
+
+    .container .parallax {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+        text-align: center;
+    }
+
+        .container .parallax .parallaxOrtala {
+            width: 100%;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            /*margin-top: 20px;*/
+            font-size: 50px;
+            color: #FFFFFF;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+            .container .parallax .parallaxOrtala .parallax-content {
+                width: 50%;
+                margin: 0 auto;
+                padding-top: 120px;
+                text-shadow: 5px 3px #000000;
+                /*background-color:red;*/
+            }
+
+    .container .parallax2 {
+        width: 100%;
+        height: 170px;
+        margin: 0 auto;
+        font-size: medium;
+        text-align: center;
+    }
+
+        .container .parallax2 .parallaxOrtala2 {
+            width: 100%;
+            height: 170px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #000000;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+            .container .parallax2 .parallaxOrtala2 .parallax-content2 {
+                width: 100%;
+                margin: 0 auto;
+                font-family: 'Courgette', cursive;
+                font-size: 26px;
+                padding-top: 25px;
+                line-height: 41px;
+            }
+
+    .container .footer {
+        width: 100%;
+        height: 325px;
+        background-color: #1D1D1D;
+        margin: 0 auto;
+        font-size: medium;
+        text-align: center;
+        color: white;
+    }
+
+
+        .container .footer .footerOrtala {
+            width: 1100px;
+            height: 320px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            .container .footer .footerOrtala .footer-ust {
+                width: 1100px;
+                height: 270px;
+                font-size: 32px;
+                float: left;
+            }
+
+                .container .footer .footerOrtala .footer-ust .footer-ust-sol {
+                    width: 33%;
+                    height: 270px;
+                    float: left;
+                    text-align: left;
+                    font-size: 20px;
+                    padding-top: 30px;
+                    /* background-color: yellow; */
+                }
+
+                .container .footer .footerOrtala .footer-ust .footer-ust-orta {
+                    width: 37%;
+                    height: 270px;
+                    float: left;
+                    line-height: 65px;
+                    text-align: center;
+                    padding-top: 80px;
+                }
+
+                .container .footer .footerOrtala .footer-ust .footer-ust-sag {
+                    width: 30%;
+                    height: 270px;
+                    float: left;
+                    text-align: right;
+                    font-family: 'Josefin Sans', sans-serif;
+                    padding-top: 55px;
+                    color: #dadada;
+                    font-size: 16px;
+                }
+
+            .container .footer .footerOrtala .footer-alt {
+                width: 1100px;
+                height: 48px;
+                float: left;
+                font-size: 16px;
+                /*font-family: 'Courgette', cursive;*/
+                font-family: 'Oleo Script', cursive;
+                line-height: 20px;
+                padding-top: 16px;
+                color: #bbbbbb;
+                border-top: 2px solid #4f4f4f;
+            }
+
+    /****************Urunler sayfası css kodları*******************/
+
+    .container .wallpaperBanner {
+        width: 100%;
+        height: 130px;
+        /* background-color: white; */
+        margin: 0 auto;
+        background-repeat: repeat;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+        text-align: center;
+        color: #ececec;
+    }
+
+        .container .wallpaperBanner .wallpaperBannerOrtala {
+            width: 1000px;
+            height: 130px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 130px;
+            font-size: 50px;
+            text-align: left;
+            /*background-color:red;*/
+        }
+
+    .container .urun {
+        width: 100%;
+        height: 1300px;
+        /*background-color: white;*/
+        background-repeat: repeat;
+        margin: 0 auto;
+        background-repeat: repeat;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+        .container .urun .urunOrtala {
+            width: 1205px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+            .container .urun .urunOrtala .urunKutu {
+                width: 360px;
+                height: 270px;
+                float: left;
+                margin: 1.7%;
+            }
+
+                .container .urun .urunOrtala .urunKutu:hover .urunAd {
+                    color: #E71616;
+                }
+
+                .container .urun .urunOrtala .urunKutu .urunResim {
+                    width: 360px;
+                    height: 240px;
+                    float: left;
+                    -webkit-filter: saturate(100%);
+                }
+
+                .container .urun .urunOrtala .urunKutu .urunResim:hover {
+                    -webkit-filter: saturate(30%);
+                    transition-property: all;
+                    transition: all 0.2s ease-in-out;
+                }
+
+
+                .container .urun .urunOrtala .urunKutu .urunAd {
+                    width: 238px;
+                    height: 30px;
+                    float: left;
+                    font-size: 22px;
+                    line-height: 30px;
+                    padding-left: 10px;
+                    color: #292929;
+                }
+
+    /*---------------------------------------------------------*/
+    .container .uretim {
+        width: 100%;
+        height: 970px;
+        background-color: white;
+        background-repeat: repeat;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+        .container .uretim .uretimOrtala {
+            width: 1205px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            margin-bottom: 20px;
+            margin-top: 35px;
+        }
+
+            .container .uretim .uretimOrtala .uretimResim {
+                width: 47%;
+                height: 400px;
+                float: left;
+            }
+
+            .container .uretim .uretimOrtala .uretimText {
+                width: 50%;
+                height: 400px;
+                float: left;
+                text-align: center;
+                font-size: 22px;
+                padding: 0px 30px 0 30px;
+                font-family: 'Courgette', cursive;
+            }
+
+    /*---------------------------------------------------------*/
+    .container .iletisim {
+        width: 100%;
+        height: 950px;
+        background-color: white;
+        background-repeat: repeat;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+        .container .iletisim .iletisimOrtala {
+            width: 1250px;
+            height: 850px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+            .container .iletisim .iletisimOrtala .iletisimKutu {
+                width: 250px;
+                height: 200px;
+                float: left;
+                margin-left: 4%;
+                border: 2px solid #a8a8a8;
+                transition: all 0.2s ease-in-out;
+            }
+
+                .container .iletisim .iletisimOrtala .iletisimKutu:hover {
+                    border: 2px solid #E71616;
+                    border-radius: 30px;
+                    transition: all 0.1 ease-in-out;
+                }
+
+                .container .iletisim .iletisimOrtala .iletisimKutu .iletisimicon {
+                    width: 250px;
+                    height: 80px;
+                    padding-top: 10px;
+                    float: left;
+                    text-align: center;
+                }
+
+                .container .iletisim .iletisimOrtala .iletisimKutu .iletisimText {
+                    width: 248px;
+                    padding-left: 5px;
+                    height: 118px;
+                    padding-top: 10px;
+                    float: left;
+                    /* background-color: yellow; */
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                }
+
+            .container .iletisim .iletisimOrtala .harita {
+                width: 1150px;
+                height: 600px;
+                background-color: red;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+    /*---------------------------------------------------------*/
+    .container .hakkimizda {
+        width: 100%;
+        height: 460px;
+        background-repeat: repeat;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        position: relative;
+        background-color: white;
+    }
+
+        .container .hakkimizda .hakkimizdaOrtala {
+            width: 1250px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+            .container .hakkimizda .hakkimizdaOrtala .hakkimizdaOrtalaText {
+                width: 1050px;
+                height: 380px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Courgette', cursive;
+                z-index: 1;
+                text-align: center;
+                font-size: 20px;
+                padding: 60px 60px 0 60px;
+            }
+
+
+
+    /*-----------------------------------------------------------*/
+    .container .fuar {
+        width: 100%;
+        height: 700px;
+        /*background-color: white;*/
+        background-repeat: repeat;
+        margin: 0 auto;
+        background-repeat: repeat;
+        font-size: medium;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+        .container .fuar .fuarOrtala {
+            width: 1220px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+            .container .fuar .fuarOrtala .fuarKutu {
+                width: 364px;
+                height: 276px;
+                float: left;
+                margin: 1.7%;
+                border: 2px solid #989898;
+            }
+
+                .container .fuar .fuarOrtala .fuarKutu:hover .fuarAd {
+                    color: #E71616;
+                }
+
+                .container .fuar .fuarOrtala .fuarKutu .fuarResim {
+                    width: 360px;
+                    height: 240px;
+                    float: left;
+                }
+
+
+                .container .fuar .fuarOrtala .fuarKutu .fuarAd {
+                    width: 360px;
+                    height: 36px;
+                    float: left;
+                    font-size: 22px;
+                    line-height: 30px;
+                    padding-left: 10px;
+                    color: #292929;
+                    border-top: 1px solid #989898;
+                    font-family: 'Oleo Script', cursive;
+                }

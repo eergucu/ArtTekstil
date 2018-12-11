@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ArtTekstil.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <%-------------------link Başlangıç---------------------------%>
+    <title>Good Fabricco</title>
+    <link href="Css/Normalize.css" rel="stylesheet" />
+    <link href="Css/Style_Css_Original.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu|Lobster|Russo+One|Courgette|Josefin+Sans|Oleo+Script" rel="stylesheet">
+
+    <%--slider--%>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link href="slider/style.css" rel="stylesheet" />
+    <%-------------------link Bitiş---------------------------%>
+
+    <div class="container" style="background-image: url(img/pattern.png);">
+        <div class="top-line">
+            <div class="top-icerik">
+                <div class="kayitOl">
+                    <a href="login/login.aspx">&nbsp &nbsp | &nbsp &nbsp Giriş Yap</a>
+                </div>
+                <div class="sosyal-medya">
+                    <a href="http://www.instagram.com" target="_blank">
+                        <img src="img/instagram.png" /></a>
+                    <a href="http://www.facebook.com" target="_blank"">
+                        <img src="img/fb.png" /></a>
+                    <a href="http://www.twitter.com" target="_blank"">
+                        <img src="img/twitter.png" /></a>
+                    <a href="http://www.youtube.com" target="_blank"">
+                        <img src="img/yt.png" /></a>
+                </div>
+                <div class="telefon">
+                    +90 (0216) 123 45 67 &nbsp &nbsp | &nbsp &nbsp info@goodfabricco.com
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="headerOrtala">
+                <div class="logo">
+                    <a href="index.aspx">
+                        <img src="img/Logo1.png" style="height: 70px" />
+                    </a>
+                </div>
+                <div class="uyeOzelMenu">
+                    <a href="index.aspx">Ana Sayfa</a>  &nbsp |  &nbsp
+                        <a href="Urunler.aspx">Kumaşlar</a> &nbsp | &nbsp
+                        <a href="Uretim.aspx">Üretim</a> &nbsp | &nbsp
+                        <a href="fuarlar.aspx">Fuarlar</a> &nbsp |  &nbsp
+                        <a href="hakkimizda.aspx">Hakkımızda</a> &nbsp |  &nbsp
+                        <a href="iletisim.aspx">İletişim</a>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+                    <div class="parallax2">
+                <div class="parallaxOrtala2" style="background-image: url(img/parallax2.png)">
+                    <div class="parallax-content2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class=" footer">
+                <div class="footerOrtala">
+                    <div class="footer-ust">
+                        <div class="footer-ust-sol">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.597451481482!2d29.059459614891278!3d40.19577117939137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca3e0e40167a39%3A0x252a83be26878b2e!2sSantral+Garaj+Mahallesi%2C+Kent+Meydan%C4%B1%2C+Osmangazi%2FBursa!5e0!3m2!1str!2str!4v1543675492796" width="320" height="210"></iframe>
+                        </div>
+                        <div class="footer-ust-orta">
+                            <h2>
+                                <img src="img/footerLogoBeyaz.png" onmousemove="this.src='img/footerLogo.png'" onmouseout="this.src='img/footerLogoBeyaz.png'">
+                            </h2>
+                            <a href="http://www.instagram.com" target="_blank"">
+                                <img src="img/instagram.png" /></a>
+                            <a href="http://www.facebook.com" target="_blank"">
+                                <img src="img/fb.png" /></a>
+                            <a href="http://www.twitter.com" target="_blank"">
+                                <img src="img/twitter.png" /></a>
+                            <a href="http://www.youtube.com" target="_blank"">
+                                <img src="img/yt.png" /></a>
+                        </div>
+                        <div class="footer-ust-sag">
+                            <h2 style="text-decoration:underline"> &nbsp &nbsp &nbsp &nbsp   İletişim Bilgisi  &nbsp  </h2><br />
+                            +90 (224) 421 62 72 <br /><br />
+                            goodfabricco@info.com<br /><br />
+                            Atatürk Mh. Cumhuriyet Sk. No:1881<br />
+                            Osmangazi / BURSA                            
+                        </div>  
+                    </div>
+                    <div class="footer-alt">© 2018 Art Tekstil. Tüm hakları saklıdır</div>
+                </div>
+            </div>
+    </div>
+    </form>
+</body>
+</html>

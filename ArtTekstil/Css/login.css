@@ -1,0 +1,72 @@
+﻿body {
+    background-image: url('/img/loginPattern.png');
+}
+
+
+.container {
+    width: 100%;
+    background-repeat: repeat;
+    float: left;
+}
+
+    .container .containerOrtala {
+        width: 380px;
+        height: 365px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
+        background-color: #FFFFFF;
+        box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+    }
+
+        .container .containerOrtala .resim {
+            width: 150px;
+            height: 100px;
+            margin-left: 50px;
+            padding-top: 30px;
+        }
+
+        .container .containerOrtala .text {
+            width: 350px;
+            height: 140px;
+            margin-left: 15px;
+            background-color: #e2e2e2;
+            border-bottom-left-radius: 35px;
+            border-top-right-radius: 35px;
+            padding-top: 30px;
+            font-size:16px;
+        }
+
+            .container .containerOrtala .text .username {
+                width: 320px;
+                height: 40px;
+                text-align: right;
+            }
+
+            .container .containerOrtala .text .pass {
+                width: 320px;
+                height: 40px;
+                text-align: right;
+            }
+
+            .container .containerOrtala .text .button {
+                width: 320px;
+                height: 50px;
+                text-align: right;
+            }
+
+
+        .container .containerOrtala .info {
+            width: 380px;
+            height: 50px;
+            background-color: #86030c;
+            margin-top: 15px;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            font-family: 'Oleo Script', cursive;
+            font-size: 26px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
